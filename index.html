@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal student website and learning portfolio.">
+  <title>My Personal Portfolio Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>My Portfolio</h1>
+    <p>Welcome to my website.</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="#about">About Me</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#learning">Learning Plan</a>
+    <a href="#photos">My Photos</a>
+    <a href="#media">My Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>
+        Hey there! My name is Siame Ndinawe, and I am a second year student studying Computer Science
+        at Mulungushi University. I am interested in technology and enjoy discovering
+        how websites are planned, designed, and built. I am learning how HTML gives
+        a page its structure and how CSS makes it attractive and easy to use. My
+        goal is to practise consistently, solve problems independently, and build
+        useful projects that help me grow as a developer. This website introduces
+        me, my interests, and my learning goals.
+      </p>
+    </section>
+
+    <section id="hobbies" class="content-section">
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Watching Anime</li>
+        <li>cooking</li>
+        <li>Reading</li>
+      </ul>
+    </section>
+
+    <section id="learning" class="content-section">
+      <h2>My Learning Plan</h2>
+      <p>These are the practical steps I will follow to improve my web development skills.</p>
+      <ol>
+        <li>Review HTML elements and practise building a well-structured page.</li>
+        <li>Learn CSS selectors, spacing, colors, and responsive layouts.</li>
+        <li>Build a small website, test it on different screen sizes, and improve it.</li>
+      </ol>
+
+      <div class="table-wrapper">
+        <table>
+          <caption>My Weekly Web Learning Plan</caption>
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Topic</th>
+              <th scope="col">Practice task</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>HTML structure</td>
+              <td>Create a page with headings, paragraphs, and links.</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>CSS styling</td>
+              <td>Style colors, fonts, spacing, and borders.</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>Media and forms</td>
+              <td>Add images, audio, video, and a form; test the page.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="photos" class="content-section">
+      <h2>My Photos</h2>
+      <div class="photo-gallery">
+        <figure>
+          <img src="photo1.jpeg" alt="A photograph showing [describe your first photo]" loading="lazy">
+
+          <figcaption>Photo 1: photo 1</figcaption>
+        </figure>
+        <figure>
+          <img src="photo2.jpeg" alt="A photograph showing [describe your second photo]" loading="lazy">
+          <figcaption>Photo 2: photo 2</figcaption>
+        </figure>
+        <figure>
+          <img src="photo3.jpeg" alt="A photograph showing [describe your third photo]" loading="lazy">
+          <figcaption>Photo 3: photo 3</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="media" class="content-section">
+      
+      
+
+<h3>My Introduction Video</h3>
+
+<video width="500" controls preload="metadata">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+
+<p>
+    <strong>Video summary:</strong>
+    In this video, I introduce myself, state my programme,
+    and share one web skill I hope to learn.
+</p>
+
+<h3>Audio Recording</h3>
+
+<audio controls preload="metadata">
+    <source src="voice.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact Me</h2>
+      <p>This is a demonstration form. It does not send or store your information.</p>
+      <form action="#" method="get">
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-field">
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="">Choose a topic</option>
+            <option value="question">General question</option>
+            <option value="feedback">Website feedback</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made by Siame Ndinawe| ICT251 Web Technologies</p>
+
+  </footer>
+</body>
+</html>
